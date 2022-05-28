@@ -23,3 +23,23 @@ nav{
   display: flex;
   align-items: center;
 }
+.brand-section{
+  display: flex;
+  align-items: center;
+}
+
+.brand-logo {
+  margin: 1rem;
+
+}
+
+.brand-logo span {
+  color: aqua;
+  font-size: 2rem;
+}
+.brand-title a {
+  text-decoration: none;
+  color: aliceblue;
+  font-family: 'Times New Roman', Times, serif;
+  text-transform: uppercase;
+}
