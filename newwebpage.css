@@ -43,3 +43,55 @@ nav{
   font-family: 'Times New Roman', Times, serif;
   text-transform: uppercase;
 }
+
+/* main menu start */
+
+.main-menu {
+  display:flex ;
+margin: 1rem;
+}
+.main-menu a {
+display: inline-block;
+margin-right: 1rem;
+text-decoration: none;
+text-transform: uppercase;
+letter-spacing: 2px;
+color: aqua;
+}
+
+.main-menu a:hover{
+  text-decoration: none;
+color: yellow;
+}
+/* main menu end */
+/* right menu start */
+.right-menu {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+
+.right-menu a {
+  display: inline-block;
+  margin-right: 1rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: greenyellow;
+}
+ 
+.right-menu button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  color: greenyellow;
+ cursor: pointer;
+}
+
+.right-menu button > span {
+  font-size: 2rem;
+}
+/* right menu end */
+
+
+
