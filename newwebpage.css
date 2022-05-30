@@ -183,3 +183,48 @@ color: aqua;
 /* mega-menu  end */
 
 
+/* table satart*/
+
+.table-div{
+  width: 60%;
+  margin: 20px auto;
+
+}
+
+.table {
+width: 100%;
+font-family: 'Courier New', Courier, monospace;
+border-radius: 8px;
+}
+ 
+
+.table caption{
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 0.05rem;
+}
+
+.table ,.table th, .table td {
+border: 1px solid #ddd;
+border-collapse: collapse;
+
+
+}
+
+.table tr:nth-child(even){
+  background-color: #ddd;
+}
+
+.table tr:nth-child(2){
+  background-color: transparent;
+}
+
+.table tr:hover {
+  background-color:aquamarine;
+}
+
+.table thead tr:hover{
+  background-color: transparent;
+}
+
+/* table end */
